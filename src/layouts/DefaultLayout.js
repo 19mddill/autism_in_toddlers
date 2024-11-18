@@ -9,10 +9,10 @@ const DefaultLayout = ({ children }) => {
         <div className="container d-flex justify-content-between align-items-center">
           <h1 className="h4 mb-0">Autism Screening App</h1>
           <nav>
-            <Link to="/" className="text-white me-3 text-decoration-none">Dashboard</Link>
-            <Link to="/questions" className="text-white me-3 text-decoration-none">Questions</Link>
-            <Link to="/results" className="text-white me-3 text-decoration-none">Results</Link>
-            <Link to="/contact-us" className="text-white text-decoration-none">Contact Us</Link>
+            <Link to="/autism_in_toddlers/" className="text-white me-3 text-decoration-none">Dashboard</Link>
+            <Link to="/autism_in_toddlers/questions" className="text-white me-3 text-decoration-none">Questions</Link>
+            <Link to="/autism_in_toddlers/results" className="text-white me-3 text-decoration-none">Results</Link>
+            <Link to="/autism_in_toddlers/contact-us" className="text-white text-decoration-none">Contact Us</Link>
           </nav>
         </div>
       </header>
@@ -25,7 +25,7 @@ const DefaultLayout = ({ children }) => {
         <div className="container text-center">
           <p>&copy; {new Date().getFullYear()} Autism Screening App. All Rights Reserved.</p>
           <p>
-            Need help? <Link to="/contact-us" className="text-light text-decoration-underline">Contact Us</Link>
+            Need help? <Link to="/autism_in_toddlers/contact-us" className="text-light text-decoration-underline">Contact Us</Link>
           </p>
         </div>
       </footer>
