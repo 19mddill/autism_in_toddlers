@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const logout = () => {
     localStorage.removeItem("token");
-    window.location = "/login";
+    window.location = "/autism_in_toddlers/login";
   };
 
   return (
