@@ -15,11 +15,12 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/autism_in_toddlers/" element={<HomePage />} />
-        <Route path="/autism_in_toddlers/login" element={<Login />} />
-        <Route path="/autism_in_toddlers/register" element={<Register />} />
-        <Route path="/autism_in_toddlers/contact-us" element={<ContactUs />} />
-        <Route path="/autism_in_toddlers/questions" element={<QuestionsPage />} />
-        <Route path="/autism_in_toddlers/results" element={<ResultsPage />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/questions" element={<QuestionsPage />} />
+        <Route path="/results" element={<ResultsPage />} />
       </Routes>
     </Router>
   );
