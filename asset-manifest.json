@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/autism_in_toddlers/static/css/main.79d19d76.css",
+    "main.js": "/autism_in_toddlers/static/js/main.d1f4a5e4.js",
+    "static/js/453.bdc8908b.chunk.js": "/autism_in_toddlers/static/js/453.bdc8908b.chunk.js",
+    "index.html": "/autism_in_toddlers/index.html",
+    "main.79d19d76.css.map": "/autism_in_toddlers/static/css/main.79d19d76.css.map",
+    "main.d1f4a5e4.js.map": "/autism_in_toddlers/static/js/main.d1f4a5e4.js.map",
+    "453.bdc8908b.chunk.js.map": "/autism_in_toddlers/static/js/453.bdc8908b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79d19d76.css",
+    "static/js/main.d1f4a5e4.js"
+  ]
+}
