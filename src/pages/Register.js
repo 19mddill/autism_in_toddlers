@@ -55,7 +55,7 @@ const Register = () => {
             <button type="submit" className="btn btn-primary w-100">Sign Up</button>
           </form>
           <p className="text-center mt-3">
-            Already have an account? <a href="/login" className="text-primary">Log In</a>
+            Already have an account? <a href="/autism_in_toddlers#/login" className="text-primary">Log In</a>
           </p>
         </div>
       </div>

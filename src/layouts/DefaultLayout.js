@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Navbar from "../components/Navbar";
 const DefaultLayout = ({ children }) => {
   return (
     <div>
+        
+    <Navbar />
       {/* Header */}
       <header className="bg-primary text-white py-3">
         <div className="container d-flex justify-content-between align-items-center">
