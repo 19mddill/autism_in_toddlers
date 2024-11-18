@@ -42,7 +42,7 @@ const Login = () => {
             <button type="submit" className="btn btn-primary w-100">Login</button>
           </form>
           <p className="text-center mt-3">
-            Don't have an account? <a href="/autism_in_toddlers/register" className="text-primary">Sign Up</a>
+            Don't have an account? <a href="/register" className="text-primary">Sign Up</a>
           </p>
         </div>
       </div>
